@@ -66,18 +66,6 @@ grails:
   gorm:
     failOnError: false
 ---
-mail:
-  from: "${TOWER_CONTACT_EMAIL:hello@foo.com}"
-  smtp:
-    host: "${TOWER_SMTP_HOST:email-smtp.eu-west-1.amazonaws.com}"
-    port: "${TOWER_SMTP_PORT:587}"
-    auth: "${TOWER_SMTP_AUTH:true}"
-    user: "${TOWER_SMTP_USER}"
-    password: "${TOWER_SMTP_PASSWORD}"
-    starttls:
-      enable: true
-      required: true
----
 live:
   buffer:
     time: 5s
